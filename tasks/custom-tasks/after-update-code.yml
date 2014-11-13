@@ -1,0 +1,4 @@
+---
+- name: Ensure unwanted file is absent
+  file: "path={{ deploy_to }}/{{ version_dir }}/{{ timestamp.stdout }}/{{ item }} state=absent"
+  with_items: project_unwanted_items

@@ -5,3 +5,4 @@ version_dir: "releases"
 current_dir: "current"
 keep_releases: 0
 deploy_via: "rsync"
+project_unwanted_items: [ '.git' ]
